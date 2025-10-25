@@ -27,6 +27,9 @@ git log
 
 brew install python3
 python3 -m pip install Django
+python3 -m venv django1
 
 django-admin startproject mypage
+cd mypage
+python3 manage.py runserver
 ```
