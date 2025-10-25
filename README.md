@@ -24,4 +24,9 @@ git status
 git add .
 git commit -m "Created my first readme file"
 git log
+
+brew install python3
+python3 -m pip install Django
+
+django-admin startproject mypage
 ```
